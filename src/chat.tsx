@@ -36,6 +36,7 @@ const getItem: ItemContent<Message, unknown> = (_, data) => {
 };
 
 export const Chat: React.FC = () => {
+
   return (
     <div className={css.root}>
       <div className={css.container}>
